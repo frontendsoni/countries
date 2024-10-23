@@ -1,7 +1,6 @@
 {
   "name": "js_practice",
   "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
     "abortcontroller-polyfill": "^1.7.5",
     "ansi-styles": "^4.3.0",
@@ -103,7 +102,8 @@
     "process": "^0.11.10"
   },
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
