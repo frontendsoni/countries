@@ -67,7 +67,7 @@ a {
 
 .country-card {
   display: inline-block;
-  width: 250px;
+  min-width: 250px;
   border-radius: 8px;
   overflow: hidden;
   padding-bottom: 24px;
